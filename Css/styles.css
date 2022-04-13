@@ -1,0 +1,163 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(227, 233, 240);
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ----- Root Classes */
+
+
+:root{
+    --grad :linear-gradient(120deg, #FFA500 0%, #B95AFF 100%):
+}
+/* ----- Root Classes */
+
+
+/* Global Styling */
+
+.btn{
+    border-radius: 5px;
+    
+    border: none;
+    padding: .5rem;
+    background: #00c1c2;
+    border: 1px solid #00c1c2
+}
+
+.btn:hover{
+
+    background: none;
+   ;
+    color:black}
+
+
+/* Global Styling*/
+
+
+.container{
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 3rem;
+}
+
+
+
+/* Section Styling */
+/* Nav-Bar */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+margin: .3rem;
+padding: .5rem;
+}
+
+#contact{
+    border: 1px solid #000b;;
+   border-radius: 3px;
+   padding: 2px;
+   ;
+   background: white;
+
+}
+
+
+a.nav-links {
+    color: rgb(51, 49, 49);
+}
+
+nav.nav{
+    min-height: 0;
+    height: 10vh;
+}
+/* Nav-Bar */
+
+
+/*Main Site Section */
+
+h3.intro{
+    font-size: 80px;
+    
+}
+div.info{
+    margin-top: 9rem;
+}
+
+h3.orange{
+    color: orange;
+}
+h3.green{
+   color: #00c1c2 ; 
+}
+
+p.stuff{
+    color: #8d8d8d;
+}
+
+button.cta{
+    margin-top: 1rem;
+    border: none;
+    background: #ffa500;
+    border: 1px solid #ffa500;
+    color: white;
+    padding: 1rem 2rem;
+    
+    font-size: larger;
+    
+}
+
+ 
+
+
+/*Main Site Section */
+
+/* services */
+
+section.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.Service{
+    height:15rem;
+    width: 15rem;
+    background-image: var(--grad);
+}
+
+div >h3.awesome{
+    margin-top: 3em ;
+    color: #2b2b5a;
+    font-size: 37px;
+}
+
+div.Cv{
+   
+}
+
+button.cvv{
+    background: #ffa500;
+    border: none;
+    height: 2rem;
+    width: 8rem;
+}
+button.cvv :hover{
+    background: none;
+    border: 1px solid #ffa500;
+  
+}
+/* services */
+
+/* Section Styling */
+
+
+
