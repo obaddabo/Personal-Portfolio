@@ -55,6 +55,7 @@ a{
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    transform: translateY(3rem);
 }
 
 .nav-links{
@@ -116,6 +117,7 @@ button.cta{
     
 }
 
+
  
 
 
@@ -131,7 +133,7 @@ section.services{
 div.Service{
     height:15rem;
     width: 15rem;
-    background-image: var(--grad);
+    background-color: #00c1c2;
 }
 
 div >h3.awesome{
@@ -140,13 +142,12 @@ div >h3.awesome{
     font-size: 37px;
 }
 
-div.Cv{
-   
-}
+
 
 button.cvv{
     background: #ffa500;
     border: none;
+    border-radius: .2rem;
     height: 2rem;
     width: 8rem;
 }
@@ -177,8 +178,21 @@ button.cvv :hover{
     display: flex;
     justify-content: center;
 }
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
 /* services */
 
+
+/* ------ Projects section ------*/
+
+section._projects_{
+    
+}
+
+/* ------ Projects section ------*/
 /* Section Styling */
 
 
