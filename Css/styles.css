@@ -72,11 +72,18 @@ padding: .5rem;
 
 }
 
+h2.brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}
 
 a.nav-links {
     color: rgb(51, 49, 49);
+    font-family: 'Alegreya Sans', sans-serif;
 }
-
+ul.nav-stuff button{
+    font-family: 'Alegreya Sans', sans-serif;
+}
 nav.nav{
     min-height: 0;
     height: 10vh;
@@ -96,13 +103,16 @@ div.info{
 
 h3.orange{
     color: orange;
+    font-family: 'Oswald', sans-serif;
 }
 h3.green{
    color: #00c1c2 ; 
+   font-family: 'Alegreya Sans', sans-serif;
 }
 
 p.stuff{
     color: #8d8d8d;
+    font-family: 'Poppins', sans-serif;
 }
 
 button.cta{
@@ -161,9 +171,17 @@ div >h3.awesome{
     color: #ffa500;
     font-size: 37px;
     margin-bottom: .3em;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 
+span.txtsev{
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+h3.awesome,h3.sevice{
+    font-family: 'Alegreya Sans', sans-serif;
+}
 
 
 button.cvv{
