@@ -41,5 +41,12 @@ document.onkeydown = function (e) {
     }
 }
 
+let char = document.getElementById("char");
+let message = document.getElementById("message-content");
+
+message.onkeyup(function() {
+    char.innerHTML = "Characters Left : " + (250 - this.value.Length);
+})
+
 
 

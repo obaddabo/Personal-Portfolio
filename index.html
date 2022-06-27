@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="vfiewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Einstein | Portfolio</title>
     <!-- Main Style link -->
     <link rel="stylesheet" href="./Css/styles.css">
@@ -30,7 +30,7 @@
                     <a href="" class="nav-links"> About Us</a>
                     <a href="" class="nav-links" id="sevices"> Services
                     </a>
-                    <button class="btn" id=" contact">Contact Us</button>
+                    <button class="btn" id=" contact">Contact Me</button>
                    
                 </ul>
             </div>
@@ -47,7 +47,7 @@
         <h3 class="intro orange">Sita Dabo </h3>
         <p class="stuff">I develop Apps,Games & Website,<br> i am a 17 years old self taught programmer <br> </p>
         
-        <button class="cta btn" onclick="location.href='instagram.com/engnr_obad'"> <a>Hire Me</a></button> 
+        <a href="https://instagram.com/engnr_obad">  <button class="cta btn"> Hire Me</button> </a>
         
     </div>
 
@@ -61,18 +61,38 @@
     <!--  Main Site Section  -->
 
     <!-- Services  --> 
-
+   
     <section class="services container">
        <div class="goals" >
             
-
-
-           <div>
-            <span class="round back"><span class="round spancir"><b>10+</b></span>
+      
+        <div>
+               
            
+            <span class="round back"><span class="round spancir"><b class="no">10+</b></span>
+            
+                                    
+       
         </div> 
-        <div class="numtit">HELLO</div>
+          
 
+        <br>
+        <br>
+        <br>
+           <div>
+               
+           
+            <span class="round back" id="down"><span class="round spancir"><b class="no">10+ </b></span>
+                    <br>
+                    <br>
+                <br>
+                    
+                              
+       
+        </div> 
+        
+   
+    
 
        </div>
 
@@ -81,11 +101,11 @@
        <div class="Service">
            
         <div class="eligibility">
-            <i class="fa-solid fa-face-grin-wink"></i>
+            <i class="fa-solid fa-face-grin-wink emoji-face"></i>
             <h3 id="centre">Services</h3>
-        <span class="txt">Web developer</span>  <span>icon</span> <span>100</span><br><br>
-        <span class="txt">game developer</span> <span>icon</span> <span>100</span><br><br>
-        <span class="txt">App developer</span> <span>icon</span> <span>100</span>
+        <span class="txt">Web developer</span>  <span>icon</span> <span class="txt">100%</span><br><br>
+        <span class="txt">game developer</span> <span>icon</span> <span class="txt">100%</span><br><br>
+        <span class="txt">App developer</span> <span>icon</span> <span class="txt">100%</span>
        
 
         
@@ -95,10 +115,10 @@
        <div class="Cv">
 
         <div><H3 class="awesome">My awesome  </H3><h3 id="sevice">services</h3></div>
-        <span class="txsev">web and e-commerce site development,<br> games and app development and lots more.<br>  </span>
+        <span class="txtsev">web and e-commerce site development,<br> games and app development and lots more.<br>  </span>
         <br>
 
-        <button class=" cvv btn">Download resume </button>
+      <button class="cvv btn">Download resume </button>
        </div>
 
     </section>
@@ -114,24 +134,89 @@
         <section class="_projects_ ">
         
         <div class="container">
-            <h1>_projects_</h1>
+            <h1 id="project-title">  <b>One Design Fits All</b></h1>
         </div>
             <div class="einstein">
                 
             </div>
         </section>
+        <h1 id="project-title"> <b>Contact</b> Me</h1>
+        <section class="message container">
+            
+        <div id="message">
+            <form action="https:formspree.io/f/moqrzpoy" method="POST">
+                
+                       <h3 >Email:</h3>
+                        <input type="email" name="email">
+                        <br>
+                        <h3> Message:</h3>
+                       <textarea maxlength="250" id="message-content" name="message">
+                       </textarea>
+                        <br>
+                       <input type="submit" class="btn" id="submit">
+                       <span id="char"></span>
+            </form>
+        </div>
+        
+        <div id="message-pic">
 
+            <img src="./assets/obad.png" alt="image" id="contact-us">
+        </div>
+       
+        
+        </section>
 
 
 <footer class="footer">
 
 <div class="container">
-    <i class="fa-brands fa-github"></i>
-    <span id="copy">© copyrights Einstein softwares 2022</span>
+   <div class="foottop">
+            
+            <ul class="socials">
+                <a>fb</a>
+                <a>tw</a>
+                <a>g+</a>
+            </ul>
+            <h1 id="project-title">Einstein</h1>
+            <ul class="payment">
+                    <a>paypal</a>
+                    <a>visa</a>
+                    <a>mastercard</a>
+            </ul>
+   </div>
+    <br>
+   <hr>
+   <div class="footbottom">
+
+<div class="mail">
+    <i class="footicons ">mail icon</i><br>
+    <b><span class="smalltxt">Mail</span></b><br>
+<span>engnrobad@gmail.com</span>
+
+
 </div>
-    
+<div class="phone">
+    <i class="footicons "> call</i>
+    <br>
+   <b> <span class="smalltxt">call</span> </b> 
+    <br>
+    <span>+2349032843785</span>
+</div>
+<div class="location">
+    <i class="footicons ">location</i><br>
+    <b><span class="smalltxt">Find me</span></b> <br>
+  <a href=""> <span> 47/1a old Railway Line</span> </a>
+</div>
+   </div>
+
+    <hr>
+   <br>
+    <span id="copyrights">©2022 Einstein all rights reserved</span>
+
+</div>
 
 </footer>
+<hr>
 
                     
     <!-- ----------Footer ------- -->
@@ -143,7 +228,7 @@
      <script src="https://kit.fontawesome.com/4e0087b9fd.js" crossorigin="anonymous"></script>
      
      <!-- Java script Link -->
-     <!-- <script src="./JavaScript/main.js"></script> -->
+     <script src="./JavaScript/main.js"></script> 
 
     
 </body>
