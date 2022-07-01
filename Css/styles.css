@@ -393,6 +393,18 @@ section.message{
 background: none;
 
 }
+.contact-title{
+    margin-left: 30rem;
+}
+#label{
+    font-family: 'Poppins', sans-serif;
+}
+.smalltxt{
+    font-family: 'Poppins', sans-serif;  
+}
+.cntent{
+    font-family: 'Poppins', sans-serif;  
+}
 /* -x-x-x-xx-x-xx-x-xMessage Me */
 
 /* -x-x-x-x-x-x-x-x-x-x-x-xx-x-x- */
